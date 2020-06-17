@@ -10,6 +10,7 @@
 - [core] fix: Call `bindClient` when creating new `Hub` to make integrations work automatically (#2665)
 - [gatsby] feat: Add @sentry/gatsby package (#2652)
 - [core] ref: Rename `whitelistUrls/blacklistUrls` to `allowUrls/denyUrls`
+- [apm] fix: Check if `performance.mark` exists before calling it (#2680)
 
 ## 5.17.0
 
